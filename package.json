@@ -1,6 +1,6 @@
 {
-  "name": "rand-token",
-  "version": "0.2.1",
+  "name": "neo-rand-token",
+  "version": "1.0.0",
   "description": "Generate random tokens",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,10 @@
     "crypto",
     "alpha-numeric"
   ],
-  "author": "Sehrope Sarkuni <sehrope@jackdb.com>",
+  "author": [
+    "Sehrope Sarkuni <sehrope@jackdb.com>",
+    "Ferrari Lee <shiyung@gmail.com>"
+  ],
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
@@ -28,6 +31,6 @@
     "mocha": "~1.16.2"
   },
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 4.0.0"
   }
 }
